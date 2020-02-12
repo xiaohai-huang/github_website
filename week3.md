@@ -4,13 +4,13 @@ Week 3
 
 1. Forward Propagation
 
-![logistic regression](C:\Users\xiaohai\AppData\Roaming\Typora\typora-user-images\image-20200209222805675.png)
+![logistic regression](https://raw.githubusercontent.com/xiaohai-huang/xiaohai-huang.github.io/master/images/forward_computation_graph.png)
 
 
 
 2. Details of a single node
 
-   <img src="C:\Users\xiaohai\AppData\Roaming\Typora\typora-user-images\image-20200209223358151.png" width="400"/>
+   <img src="https://raw.githubusercontent.com/xiaohai-huang/xiaohai-huang.github.io/master/images/node_details.png" width="400"/>
 
 
 
@@ -18,13 +18,13 @@ Week 3
 
 1. Overview
 
-<img src="C:\Users\xiaohai\AppData\Roaming\Typora\typora-user-images\image-20200209223141492.png" width=500/>
+<img src="https://raw.githubusercontent.com/xiaohai-huang/xiaohai-huang.github.io/master/images/NN_representation.png" width=500/>
 
 
 
 2. Define ```W_l, b_l, Z_l, A_l```
 
-<img src="C:\Users\xiaohai\AppData\Roaming\Typora\typora-user-images\image-20200209224016523.png" width="550"/>
+<img src="https://raw.githubusercontent.com/xiaohai-huang/xiaohai-huang.github.io/master/images/define_W_l.png" width="550"/>
 
 __Attention!__ ```z, a``` are lower case since they are calculated by only one example which is ```x```.
 $$
@@ -83,7 +83,7 @@ a_0 == x
 
 3. Compute y_hat or a_L
 
-   <img src="C:\Users\xiaohai\AppData\Roaming\Typora\typora-user-images\image-20200209231918479.png" width=550/>
+   <img src="https://raw.githubusercontent.com/xiaohai-huang/xiaohai-huang.github.io/master/images/1_NN.png" width=550/>
 
 ```python
 a_0 = x
@@ -104,7 +104,7 @@ a_2 = sigmoid(z_2)
 
    **Note:** ```(i)``` refers to example index, ```[l]```refers to layer index
 
-   <img src="C:\Users\xiaohai\AppData\Roaming\Typora\typora-user-images\image-20200209233431111.png" width=550/>
+   <img src="https://raw.githubusercontent.com/xiaohai-huang/xiaohai-huang.github.io/master/images/vectorization.png" width=550/>
 
 ```python
 # X.Shape = (n_x,m)
